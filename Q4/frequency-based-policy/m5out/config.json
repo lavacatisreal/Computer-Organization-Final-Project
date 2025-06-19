@@ -769,14 +769,11 @@
         }, 
         "l3": {
             "replacement_policy": {
-                "btp": 0, 
-                "max_RRPV": 3, 
-                "hit_priority": false, 
                 "eventq_index": 0, 
-                "cxx_class": "BRRIPRP", 
                 "path": "system.l3.replacement_policy", 
-                "type": "BRRIPRP", 
-                "name": "replacement_policy"
+                "type": "LFURP", 
+                "name": "replacement_policy", 
+                "cxx_class": "LFURP"
             }, 
             "cpu_side": {
                 "peer": "system.tol3bus.master[0]", 
